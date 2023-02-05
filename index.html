@@ -5,49 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazing Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><strong>Amazing Odin Recipes</strong></h1>
-    <br>
+    <h1 class="top-home">Amazing Odin Recipes</h1>
     <img 
         src="https://usil-blog.s3.amazonaws.com/PROD/blog/image/dia-internacional-chef.jpg" 
-        height="300" 
+        class="home"
         alt="Three chef cooking"
     />
-    <br>
-    <p>The art of cooking and trying new flavors.</p>
+    <p class="top-text">The art of cooking and trying new flavors.</p>
+
     <fieldset>
-        <legend><strong>Top Three of the Best Recipes</strong></Top></legend>
-    <ul>
-        <li><a href="recipes/RocotoRelleno.html">Rocoto Relleno</a></li>
+        <legend class="ref-in"><strong>Top Three of the Best Recipes</strong></Top></legend>
+    
+    <div class="container">
+        <p class="ref-roc">Rocoto Relleno</p>
         <br>
-            <img 
+        <a href="recipes/RocotoRelleno.html">
+        <img 
             src="https://www.lugaresturisticosperu.com/wp-content/uploads/rocoto-relleno.jpg" 
-            height="65" 
+            class="top roc"
             alt="Rocoto Relleno in a dish"
-            />
+        /></a>
         <br>
-        <li><a href="recipes/Ceviche.html">Ceviche</a></li>
+        <p class="ref-cev">Ceviche</p>
         <br>
-            <img 
+        <a href="recipes/Ceviche.html" ><img 
             src="https://us.123rf.com/450wm/danielsanmartinr/danielsanmartinr1809/danielsanmartinr180900082/108020087-ceviche-plato-s%C3%ADmbolo-de-la-gastronom%C3%ADa-peruana-chef-preparando-un-ceviche-.jpg" 
-            height="90" 
+            class="top cev" 
             alt="Ceviche in white dish"
-            />
+        /></a>
         <br>
-        <li><a href="recipes/CuyChactado.html">Cuy Chactado</a></li>
+        <p class="ref-cuy">Cuy Chactado</p>
         <br>
-            <img 
+        <a href="recipes/CuyChactado.html"><img 
             src="https://jameaperu.com/wp-content/uploads/2019/09/cuy-chactado_700x467.jpg" 
-            height="80" 
+            class="top cuy"
             alt="Cuy Chactado in a dish"
-            />
-    </ul>
+        /></a>
+    </div>
     </fieldset>
-    <br>
-    <br>
-    <a href="#top" >Back to Top</a>
-    <br>
-    <br>
+    
+    <footer>
+    <div>
+        <a href="#top" id="last">Back to Top</a>
+    </div>
+    </footer>
 </body>
 </html>
