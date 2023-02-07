@@ -5,51 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CuyChactado</title>
+    <link rel="stylesheet" href="cuychactado.css">
 </head>
 <body>
-    <a href="#" onclick="history.back()"><h1>Amazing Odin Recipes</h1></a>
-    <h2>Cuy Chactado</h2>
-    <br>
-    <img 
-        src="https://jameaperu.com/wp-content/uploads/2019/09/cuy-chactado_700x467.jpg" 
-        height="300" 
-        alt="Cuy Chactado in a dish"
-    />
-    <p>It is an emblematic dish of Peruvian gastronomy prepared differently in each region. The term comes from the Aymara verb chchactaña "to disappear" which refers to the meat that is roasted under a stone of approximately 2kg. Guinea pig meat is a food of excellent flavor and quality</p>
-    <br>
-    <fieldset>
-    <legend><strong>Ingredients needed</strong></legend>
-        <ul>
-            <li>2 guinea pigs.</li>
-            <li>½ liter of oil.</li>
-            <li>Boiled potatoes.</li>
-            <li>Salt to taste.</li>
-            <li>Minced garlic.</li>
-            <li>Onion bramble and llatan.</li>
-        </ul>
-    </fieldset>
-    <br>
-    <br>
-    <fieldset>
-    <legend><strong>Steps For Preparation</strong></legend>
+    <div>
+        <a href="#" class="home" onclick="history.back()"><h1>Amazing Odin Recipes</h1></a>
+        <h2 class="title">Cuy Chactado</h2>
         <img 
-            src="https://www.agrojunin.gob.pe/wp-content/uploads/2022/11/F84A1441-min-768x512.jpg" 
-            height="200"  
-            alt="Cooking Cuy Chactado"
+            src="https://jameaperu.com/wp-content/uploads/2019/09/cuy-chactado_700x467.jpg" 
+            class="home-img"
+            alt="Cuy Chactado in a dish"
         />
-        <ol>
-            <li>Clean the guinea pigs well.</li>
-            <li>Season them on both sides with garlic, salt and sunbathe them for a while.</li>
-            <li>In a frying pan, heat the oil and fry the guinea pigs upside down, placing a chaquena (small stone of about 2 kg.), on top of the guinea pigs. So let them cook and brown.</li>
-            <li>Once golden, add a little lemon and brown on both sides.</li>
-            <li>It is served with golden potatoes, zarza and llatan.</li>
-        </ol>
-    </fieldset>
-    <br>
-    <br>
-    <a href="#top" >Back to Top</a>
-    <br>
-    <br>
-    <form><input type="button" value="Back"  onclick="history.back()" /> </form>
+        <p class="intro">It is an emblematic dish of Peruvian gastronomy prepared differently in each region. The term comes from the Aymara verb chchactaña "to disappear" which refers to the meat that is roasted under a stone of approximately 2kg. Guinea pig meat is a food of excellent flavor and quality</p>
+    </div>
+
+    
+    <div>
+        <img 
+        src="https://www.agrojunin.gob.pe/wp-content/uploads/2022/11/F84A1441-min-768x512.jpg" 
+        class="prepa-img"  
+        alt="Cooking Cuy Chactado"
+        />
+        <fieldset>
+        <p class="ingre-text"><strong>Ingredients Needed</strong></p>
+            <ul class="ingre-list">
+                <li>2 guinea pigs.</li>
+                <li>½ liter of oil.</li>
+                <li>Boiled potatoes.</li>
+                <li>Salt to taste.</li>
+                <li>Minced garlic.</li>
+                <li>Onion bramble and llatan.</li>
+            </ul>
+        </fieldset>
+    </div>
+
+
+
+    <div>
+        <fieldset>
+            <p class="prepa-text"><strong>Steps For Preparation</strong></p>
+            <ol class="prepa-list">
+                <li>Clean the guinea pigs well.</li>
+                <li>Season them on both sides with garlic, salt and sunbathe them for a while.</li>
+                <li>In a frying pan, heat the oil and fry the guinea pigs upside down, placing a chaquena (small stone of about 2 kg.), on top of the guinea pigs. So let them cook and brown.</li>
+                <li>Once golden, add a little lemon and brown on both sides.</li>
+                <li>It is served with golden potatoes, zarza and llatan.</li>
+            </ol>
+        </fieldset>
+    </div>
+    <footer>
+        <a href="#top" id="last-text" >Back to Top</a>
+        <input type="button" id="last-button" value="Back"  onclick="history.back()"/>
+    </footer>
 </body>
 </html>
