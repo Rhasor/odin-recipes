@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(239, 239, 239);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* body */
@@ -16,19 +17,14 @@ body {
     font-size: 1rem;
     text-shadow: 0px 0px 5px black;
 }
-.prepa-text {
-    color: white;
-    font-size: 1.3rem;
-    text-align: center;
-    text-shadow: 0px 0px 5px black;
-}
+.prepa-text,
 .ingre-text {
     color: white;
     font-size: 1.3rem;
-    text-shadow: 0px 0px 5px black;
     text-align: center;
-    
+    text-shadow: 0px 0px 5px black;
 }
+
 .title,
 .intro {
     text-align: center;
@@ -39,7 +35,7 @@ body {
     padding: 50px;
 }
 .intro {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 20px;
 }
 
@@ -47,6 +43,7 @@ body {
 .ingre-list {
     position:relative;
     padding: 40px;
+    font-size: 1.1rem;
 }
 
 
